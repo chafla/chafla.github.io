@@ -2,25 +2,41 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <!-- I'm a python dev, not a web dev. Thanks to @ihaveahax and http://bettermotherfuckingwebsite.com/ for inspiration and other things -->
 </head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <body>
     <h1>chafla</h1>
     <h3>Matt Thompson</h3>
-    <span>github: </span><b><a href="http://github.com/chafla">http://github.com/chafla</a></b>
-    <br>
-    <span>discord: <b>Luc#5653</b></span>
+    <div class="link-with-icon">
+        <img src="sources/GitHub-Mark-64px.png" class="icon">
+        <b><a href="http://github.com/chafla">http://github.com/chafla</a></b>
+    </div>
+    <div class="link-with-icon">
+        
+        <img src="sources/discord.svg" class="icon">
+        <b>Luc#5653</b>
+        <br>
+    </div>
+    <div class="link-with-icon">
+        <img src="sources/linkedin-logo.svg" class="icon">
+        <b><a href="https://www.linkedin.com/in/matthew-thompson-26wc/">https://www.linkedin.com/in/matthew-thompson-26wc/</a></b>
+        
+    </div>
     <h2>Projects</h2>
     <div class="project">
-        <h3>Porygon2</h3>
+        <h3><a href="porygon2.html">Porygon2</a></h3>
         <div class="thumb">
             <img src="sources/porygon2.webp"
             class="thumb">
         </div>
         <div class="desc">
-            Porygon2 is a multi-function Discord bot written from scratch over the course of 1.5 years. It was created originally to serve a small gaming community, and now serves as a primary bot for a server with over 21,000 members. It serves moderation and managerial purposes, as well as memes. <br><a href="http://example.com">github</a>
+            Porygon2 is a multi-function Discord bot written from scratch over the course of 5 years (2015-present). It was created originally to serve a small gaming community (/r/MysteryDungeon). Its primary server shifted to /r/Pokemon, where it remained the primary bot for 4 years, at one point serving a community of 100,000 users. It serves moderation and managerial purposes, as well as memes. <br><a href="http://github.com/chafla/Pory2">github</a>
         </div>
     </div>
+    <br>
     <div class="project">
         <h3>HockeyBot</h3>
         <div class="thumb">
@@ -29,9 +45,10 @@
         </div>
         <div class="desc">
             HockeyBot is a small bot that I wrote during the fall of 2016 for a friend in a hockey-related server. It accesses an open endpoint for NHL scores, parses the data, and feeds back scores as they happen to a chatroom. <br>
-            <a href="example.com">github</a>
+            (closed source)
         </div>
     </div>
+    <br>
     <div class="project">
         <h3>goPC</h3>
         <div class="thumb">
@@ -44,7 +61,7 @@
             
         </div>
     </div>
-
+    <br>
     <div class="project">
         <h3>gizoogle-py</h3>
         <!--
@@ -54,7 +71,8 @@
         -->
 
         <div class="desc">
-            Python client for translating text to <a href="http://www.gizoogle.net/">Gizoogl-ified</a> text.<br>
+            Unofficial python client for translating text to <a href="http://www.gizoogle.net/">Gizoogl-ified</a> form.<br>
+            Currently available as a package on pypi.<br>
             <a href="http://github.com/chafla/gizoogle-py">github</a><br>
             <a href="https://pypi.org/project/gizoogle-py/">pypi</a>
         </div>
