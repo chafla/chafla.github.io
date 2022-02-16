@@ -1,0 +1,4 @@
+steps:
+        - name: gcr.io/cloud-builders/gsutil
+          args: ["-m", "rsync", "-c", "-d", ".", "gs://aura-dog-web-resources/chafla.me"]
+
